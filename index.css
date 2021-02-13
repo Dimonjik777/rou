@@ -1,0 +1,492 @@
+body{
+	font-family: "Roboto", sans-serif;
+	background: url(img/background.png) no-repeat;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.emblem{
+	display: flex;
+	align-items: center;
+	margin-right: 150px;
+}
+
+.emblem img{
+	margin-right: 10px;
+}
+
+.header ul{
+	list-style: none;
+	margin-right: auto;
+}
+
+.header ul li{
+	display: inline;
+	padding: 10px;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color:black;
+}
+
+.header__button{
+	border: #c04ae2 1px solid;
+	padding: 15px 40px;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.first__screen{
+	margin-top: 70px;
+	display: flex;
+	width: 100%;
+}
+
+.first__screen_left{
+	width: 300px;
+	margin-right: auto;
+}
+
+.first__screen_left h1{
+	font-size: 45px;
+}
+
+.first__screen_left p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.first__screen_left a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	padding: 15px 25px;
+	background: #c04ae2;
+	border-radius: 5px;
+}
+
+.first__screen_right img{
+	width: 600px;
+}
+
+.control{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.control h1{
+	font-size: 50px;
+	display: block;
+	margin: 0;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+.control h3{
+	color:#c04ae2;
+}
+.control .control__advantages h3{
+	color:black;
+}
+
+.control .control__advantages{
+	display: flex;
+	justify-content: center;
+}
+
+.control .control__advantages .advantage{
+	height: 496px;
+	width: 370px;
+	margin-right: 20px;
+
+}
+
+.red{
+	border-radius: 10px;
+	border: #fcd7df 6px solid;
+}
+
+.green{
+	border-radius: 10px;
+	border: #c9f3e2 6px solid;
+}
+
+.yellow{
+	border-radius: 10px;
+	border: #f2d5ba 6px solid;
+}
+
+.align{
+	margin-top: 130px;
+	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.align h3{
+	font-size: 30px;
+}
+
+.align p{
+	color: #5e5858;
+}
+
+.creative{
+	margin-top: 50px;
+	display: flex;
+}
+
+.creative__left{
+	width: 300px;
+}
+
+.creative__left{
+	font-size: 20px;
+}
+
+.creative__left p{
+	font-size: 17px;
+	color: #5e5858;
+}
+
+.creative__left a{
+	text-decoration: none;
+	color:white;
+	padding: 15px 25px;
+	background: #c04ae2;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.creative__right{
+	margin-left: auto;
+}
+
+.creative__right_top{
+	margin-bottom: 40px;
+}
+
+.creative__right_down{
+	margin-top: 40px;
+}
+
+.business__problem h3{
+	color: #c04ae2;
+	text-align: right;
+}
+
+.business__problem h1{
+	font-size: 40px;
+	width: 600px;
+	text-align: right;
+	margin-left: auto;
+}
+
+.services{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.service{
+	width: 250px;
+	height: 340px;
+	text-align: center;
+
+}
+
+.second__columm{
+	margin-top: 40px;
+}
+
+.third__columm{
+	margin-top: 80px;
+}
+
+.innovetion h3{
+	text-align: center;
+	color:#c04ae2;
+}
+
+.innovetion h1{
+	font-size: 40px;
+	text-align: center;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.projects{
+	margin-top: 50px;
+}
+.project p {
+	margin-bottom: 40px;
+}
+
+.project{
+	display: flex;
+
+	margin-top: 50px;
+}
+
+.project h4{
+	font-size: 24px;
+}
+
+.project a{
+	text-decoration: none;
+	color:black;
+	padding: 10px 15px;
+	border: #c04ae2 2px solid;
+}
+
+.right__project h4{
+	color:#fe6686;
+	
+}
+
+.project h2{
+	font-size: 36px;
+
+}
+
+.right__project{
+	width: 500px;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.left__project{
+		width: 500px;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+}
+
+.left__project h4{
+	color:#54d6a1;
+}
+
+.project_third h4{
+	color: #fe9a3f;
+}
+
+.portfolio {
+	font-weight: 700;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #c04ae2;
+}
+
+.team{
+	margin-top: 100px;
+}
+.team h3{
+	color:#c04ae2;
+	text-align: center;
+}
+
+.team h1{
+	text-align: center;
+	font-size: 40px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.peoples{
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.people p{
+	color:#91949c;
+}
+
+.people_bottom{
+	margin-top: 75px;	
+}
+
+.reviews{
+	margin-top: 50px;
+	display: flex;
+
+}
+
+.review{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.review_left{
+	width: 500px;
+}
+
+.reviews h3{
+	color:#c04ae2;
+	
+}
+
+.reviews h1{
+	font-size: 50px;
+}
+
+.review_right {
+	margin-left: 200px;
+}
+
+.reviews p{
+	margin-top: 20px;
+}
+
+.black{
+	font-weight: 700;
+	color:black;
+	display: inline;
+}
+
+.thin{
+	display: inline;
+	color:#91949c;
+}
+
+.contact{
+	margin-top: 50px;
+}
+
+.contact h3{
+	color:#c04ae2;
+	text-align: center;
+}
+
+.contact h1{
+	font-size: 50px;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact_column{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input{
+	display: flex;
+	margin-top: 40px;
+}
+
+.message{
+	width: 470px;
+}
+
+
+
+.message input{
+	font-size: 16px;
+	border: 0;
+	background: white;
+	height: 40px;
+	box-shadow: 0 5px 20px rgba(1, 0, 0, 0.5);
+	width: 470px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+.message form .form__button{
+	color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    background: #c04ae2;
+    border-radius: 5px;
+    width: auto;
+    box-shadow: none;
+    margin-top: 50px;
+}
+
+.sidebar{
+	width: 350px;
+}
+
+.contacts{
+	margin-top: 20px;
+}
+
+.variant{
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.variant img{
+	margin-right: 10px;
+}
+
+.variant p{
+	margin-right: 20px;
+}
+
+.footer{
+	margin-top: 50px;
+	display: flex;
+	align-items: top;
+	justify-content: space-around;
+}
+
+.emblems{
+	width: 300px;
+}
+
+.footer h4{
+	font-size: 18px;
+}
+
+.footer ul{
+	text-decoration: none;
+	color:#777777;
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	color: #777777;
+}
+
+.footer ul li{
+	padding-bottom: 10px;
+}
+
+.footer__service, .about, .getin{
+	text-align: left;
+}
